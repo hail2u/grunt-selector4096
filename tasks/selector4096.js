@@ -13,7 +13,7 @@ var count = require('./lib/css.js').countSelector;
 
 module.exports = function (grunt) {
   var taskName = 'selector4096';
-  var taskDescription = 'Warn if CSS file has more than equal 4096 selecors.';
+  var taskDescription = 'Warn if CSS file has more than equal 4096 selectors.';
 
   grunt.registerMultiTask(taskName, taskDescription, function () {
     var done = this.async();
