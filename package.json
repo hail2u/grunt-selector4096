@@ -1,0 +1,47 @@
+{
+  "name": "grunt-selector4096",
+  "description": "Warn if CSS file has more than equal 4096 selectors.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/hail2u/grunt-selector4096",
+  "author": {
+    "name": "Kyo Nagashima",
+    "email": "kyo@hail2u.net",
+    "url": "http://hail2u.net/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hail2u/grunt-selector4096.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hail2u/grunt-selector4096/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://hail2u.mit-license.org/2013"
+    }
+  ],
+  "main": "Gruntfile.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "dependencies": {
+    "css-parse": "~1.6.0"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt": "~0.4.2"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.2"
+  },
+  "keywords": [
+    "gruntplugin",
+    "css",
+    "ie9"
+  ]
+}
