@@ -40,7 +40,7 @@ grunt.initConfig({
 });
 ```
 
-This plugin is read-only task, so you don't need to specify `dest` like `[grunt-contrib-jshint](https://github.com/gruntjs/grunt-contrib-jshint)`.
+This plugin is read-only task, so you don't need to specify `dest` like [`grunt-contrib-jshint`](https://github.com/gruntjs/grunt-contrib-jshint).
 
 
 ## Contributing
