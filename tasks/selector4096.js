@@ -39,7 +39,7 @@ module.exports = function (grunt) {
         return next();
       }
 
-      grunt.log.writeln('File "' + file + '" had ' + num +
+      grunt.log.ok('File "' + file + '" had ' + num +
         ' selectors. Looks good.');
       next();
     }, function (err) {
