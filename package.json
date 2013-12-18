@@ -29,7 +29,8 @@
     "test": "grunt test"
   },
   "dependencies": {
-    "css-parse": "~1.6.0"
+    "css-parse": "~1.6.0",
+    "async": "~0.2.9"
   },
   "devDependencies": {
     "grunt-contrib-jshint": "~0.6.0",
