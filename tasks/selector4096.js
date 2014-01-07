@@ -18,11 +18,11 @@ module.exports = function (grunt) {
 
     var done = this.async();
 
-    async.forEach(this.filesSrc, function (file, next) {
+    async.each(this.filesSrc, function (file, callback) {
       if (!grunt.file.exists(file)) {
         grunt.log.warn('Source file "' + file + '" not found.');
 
-        return next();
+        return callback();
       }
 
       var num = count(grunt, file);
@@ -36,12 +36,12 @@ module.exports = function (grunt) {
         grunt.log.error('File "' + file + '" had ' + num +
           ' selectors. Not bad, but not good either.');
 
-        return next();
+        return callback();
       }
 
       grunt.log.ok('File "' + file + '" had ' + num +
         ' selectors. Looks good.');
-      next();
+      callback();
     }, function (err) {
       done(err);
     });
