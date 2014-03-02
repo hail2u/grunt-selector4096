@@ -1,3 +1,4 @@
+/* jshint node: true */
 'use strict';
 
 var count = require('../tasks/lib/css').countSelector;

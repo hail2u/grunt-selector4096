@@ -1,11 +1,4 @@
-/*
- * grunt-selector4096
- * https://github.com/hail2u/grunt-selector4096
- *
- * Copyright (c) 2013 Kyo Nagashima
- * Licensed under the MIT license.
- */
-
+/* jshint node: true */
 'use strict';
 
 module.exports = function(grunt) {
