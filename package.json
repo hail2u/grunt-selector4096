@@ -2,11 +2,7 @@
   "name": "grunt-selector4096",
   "description": "Warn if CSS file has more than equal 4096 selectors.",
   "version": "0.1.2",
-  "author": {
-    "name": "Kyo Nagashima",
-    "email": "kyo@hail2u.net",
-    "url": "http://hail2u.net/"
-  },
+  "author": "Kyo Nagashima <hail2u@gmail.com> (https://kyonagashima.com/)",
   "bugs": {
     "url": "https://github.com/hail2u/grunt-selector4096/issues"
   },
