@@ -27,7 +27,7 @@
     "selector"
   ],
   "license": "MIT",
-  "main": "Gruntfile.js",
+  "main": "tasks/selector4096.js",
   "peerDependencies": {
     "grunt": ">=0.4.0"
   },
