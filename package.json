@@ -20,14 +20,17 @@
   },
   "homepage": "https://github.com/hail2u/grunt-selector4096",
   "keywords": [
-    "gruntplugin",
     "css",
+    "gruntplugin",
+    "ie9",
     "linter",
-    "selector",
-    "ie9"
+    "selector"
   ],
   "license": "MIT",
   "main": "Gruntfile.js",
+  "peerDependencies": {
+    "grunt": ">=0.4.0"
+  },
   "repository": {
     "type": "git",
     "url": "git://github.com/hail2u/grunt-selector4096.git"
